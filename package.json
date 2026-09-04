@@ -1,0 +1,38 @@
+{
+  "name": "physvis",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "accept": "node scripts/acceptance.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "react": "^19.2.8",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.2.8",
+    "react-router": "^7.9.0",
+    "zod": "^3.25.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "autoprefixer": "^10.4.21",
+    "oxlint": "^1.79.0",
+    "playwright-core": "^1.62.1",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.0.0"
+  }
+}
