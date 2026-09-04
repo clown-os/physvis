@@ -16,5 +16,6 @@ PhysVis 网页版 v1.0.0
 AI 解析默认走内置 mock 通道（离线可演示），要真正解析题目请在
 「设置」中配置你自己的 AI Key（DeepSeek / OpenAI 兼容 / Anthropic / Gemini）。
 
-源码与在线演示：https://github.com/<你的用户名>/physvis
+源码与在线演示：https://github.com/clown-os/physvis
+在线使用（无需下载）：https://clown-os.github.io/physvis/
 MIT License © 2026 Byte

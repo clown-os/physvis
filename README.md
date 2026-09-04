@@ -28,7 +28,7 @@
 
 ## 🚀 在线演示
 
-https://<你的用户名>.github.io/physvis/
+https://clown-os.github.io/physvis/
 
 ## 📦 本地运行
 
